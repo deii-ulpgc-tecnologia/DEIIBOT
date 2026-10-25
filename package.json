@@ -1,0 +1,46 @@
+{
+    "name": "DEIIBOT",
+    "version": "0.0.1",
+    "description": "A simple discord bot",
+    "keywords": [
+        "bot",
+        "discord"
+    ],
+    "homepage": "https://github.com/deii-ulpgc-tecnologia/DEIIBOT#readme",
+    "bugs": {
+        "url": "https://github.com/deii-ulpgc-tecnologia/DEIIBOT/issues"
+    },
+    "author": "DEII",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/deii-ulpgc-tecnologia/DEIIBOT.git"
+    },
+    "type": "module",
+    "main": "src/index.js",
+    "scripts": {
+        "dev": "cls & set NODE_OPTIONS=--no-warnings && set NODE_ENV=development&& tsx watch src/index.ts",
+        "start": "node dist/index.js",
+        "build": "tsc --project tsconfig.json && tsc-alias --resolve-full-paths --resolve-full-extension .js",
+        "lint:check": "oxlint",
+        "lint:fix": "oxlint --fix",
+        "format:check": "oxfmt --check",
+        "format:fix": "oxfmt",
+        "audit": "pnpm audit",
+        "audit:fix": "pnpm audit fix",
+        "check:deps": "pnpx npm-check-updates",
+        "update:deps": "pnpx npm-check-updates -u"
+    },
+    "dependencies": {
+        "@napi-rs/canvas": "1.0.13",
+        "discord.js": "14.27.0"
+    },
+    "devDependencies": {
+        "@types/node": "26.6.5",
+        "oxfmt": "0.74.0",
+        "oxlint": "1.89.0",
+        "tsc-alias": "1.9.9",
+        "tsup": "9.0.0",
+        "tsx": "4.23.15",
+        "typescript": "6.0.3"
+    }
+}

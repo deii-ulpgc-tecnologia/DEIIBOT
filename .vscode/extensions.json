@@ -1,0 +1,15 @@
+{
+    "recommendations": [
+        "usernamehw.errorlens",
+        "github.vscode-github-actions",
+        "github.vscode-pull-request-github",
+        "eamodio.gitlens",
+        "wix.vscode-import-cost",
+        "kisstkondoros.vscode-gutter-preview",
+        "ms-vscode.vscode-typescript-next",
+        "chamboug.js-auto-backticks",
+        "christian-kohler.npm-intellisense",
+        "yoavbls.pretty-ts-errors",
+        "oxc.oxc-vscode"
+    ]
+}

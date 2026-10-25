@@ -1,0 +1,20 @@
+{
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "[javascript]": {
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
+    "[typescript]": {
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
+    "[json]": {
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    },
+    "[jsonc]": {
+        "editor.formatOnSaveMode": "file",
+        "editor.defaultFormatter": "oxc.oxc-vscode"
+    }
+}
