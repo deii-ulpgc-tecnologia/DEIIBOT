@@ -1,0 +1,22 @@
+{
+    "roles": {
+        "admin": "Admin",
+        "moderator": "Moderator",
+        "member": "Member"
+    },
+    "permissions": {
+        "read": "Read Access",
+        "write": "Write Access",
+        "execute": "Execute Access"
+    },
+    "settings": {
+        "language": "en",
+        "timezone": "UTC",
+        "notifications": true
+    },
+    "channels": {
+        "general": "General Chat",
+        "support": "Support Channel",
+        "announcements": "Announcements"
+    }
+}
