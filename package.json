@@ -18,9 +18,9 @@
     "type": "module",
     "main": "src/index.js",
     "scripts": {
-        "dev": "cls & set NODE_OPTIONS=--no-warnings && set NODE_ENV=development&& tsx watch src/index.ts",
+        "dev": "cls && set NODE_OPTIONS=--no-warnings && set NODE_ENV=development && tsx watch src/index.ts",
+        "build": "tsup src/**/*.ts",
         "start": "node dist/index.js",
-        "build": "tsc --project tsconfig.json && tsc-alias --resolve-full-paths --resolve-full-extension .js",
         "lint:check": "oxlint",
         "lint:fix": "oxlint --fix",
         "format:check": "oxfmt --check",
@@ -38,7 +38,6 @@
         "@types/node": "26.6.5",
         "oxfmt": "0.74.0",
         "oxlint": "1.89.0",
-        "tsc-alias": "1.9.9",
         "tsup": "9.0.0",
         "tsx": "4.23.15",
         "typescript": "6.0.3"
