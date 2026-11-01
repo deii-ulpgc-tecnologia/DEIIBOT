@@ -1,10 +1,20 @@
 import { loadEnvFile } from "node:process";
-import { Client, Events, GatewayIntentBits } from "discord.js";
+import { Client, Events, GatewayIntentBits, Collection } from "discord.js";
+import { Command } from "@/types/Command";
+import { Event } from "@/types/Event";
+import { Button } from "@/types/Button";
+import { Modal } from "@/types/Modal";
 
 loadEnvFile(".env");
 
 class Bot {
     private readonly client: Client;
+
+    public readonly commands = new Collection<string, Command>();
+    public readonly events = new Collection<string, Event>();
+    public readonly buttons = new Collection<string, Button>();
+    public readonly modals = new Collection<string, Modal>();
+
     constructor() {
         this.client = new Client({
             intents: [
