@@ -1,5 +1,5 @@
 import { ModalBuilder, ModalSubmitInteraction } from "discord.js";
-import { BotData } from "./BotData.js";
+import { BotData } from "@/types/BotData";
 
 export interface Modal {
     data: ModalBuilder;

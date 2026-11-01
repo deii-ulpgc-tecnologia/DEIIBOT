@@ -1,5 +1,5 @@
 import type { ChatInputCommandInteraction, SlashCommandBuilder } from "discord.js";
-import { BotData } from "./BotData.js";
+import { BotData } from "@/types/BotData";
 
 export interface Command {
     data: SlashCommandBuilder;

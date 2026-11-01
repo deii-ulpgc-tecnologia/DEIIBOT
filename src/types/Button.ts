@@ -1,5 +1,5 @@
 import { ButtonBuilder, ButtonInteraction } from "discord.js";
-import { BotData } from "./BotData.js";
+import { BotData } from "@/types/BotData";
 
 export interface Button {
     data: ButtonBuilder;
