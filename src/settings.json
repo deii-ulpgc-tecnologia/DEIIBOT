@@ -1,22 +1,73 @@
 {
     "roles": {
-        "admin": "Admin",
-        "moderator": "Moderator",
-        "member": "Member"
+        "representative": {
+            "id": "676726802835570689",
+            "label": "Delegado"
+        },
+        "governing_board": {
+            "id": "676727154016387092",
+            "label": "Junta Directiva"
+        },
+        "1gii": {
+            "id": "413668146776637440",
+            "label": "1º GII"
+        },
+        "2gii": {
+            "id": "413668249390153728",
+            "label": "2º GII"
+        },
+        "3gii": {
+            "id": "413668271569502208",
+            "label": "3º GII"
+        },
+        "4gii": {
+            "id": "413668291262021632",
+            "label": "4º GII"
+        },
+        "1gcid": {
+            "id": "762650419482329109",
+            "label": "1º GCID"
+        },
+        "2gcid": {
+            "id": "762707218323603507",
+            "label": "2º GCID"
+        },
+        "3gcid": {
+            "id": "762707225235030047",
+            "label": "3º GCID"
+        },
+        "4gcid": {
+            "id": "762707227639021588",
+            "label": "4º GCID"
+        },
+        "1gifm": {
+            "id": "1146867867158052894",
+            "label": "1º GIFM"
+        },
+        "2gifm": {
+            "id": "1146867939191038044",
+            "label": "2º GIFM"
+        },
+        "3gifm": {
+            "id": "1146868020858331286",
+            "label": "3º GIFM"
+        },
+        "4gifm": {
+            "id": "1146868056858038273",
+            "label": "4º GIFM"
+        }
     },
     "permissions": {
-        "read": "Read Access",
-        "write": "Write Access",
-        "execute": "Execute Access"
+        "commands.create": [
+            "representative",
+            "governing_board"
+        ]
     },
     "settings": {
-        "language": "en",
-        "timezone": "UTC",
-        "notifications": true
+        "language": "es",
+        "timezone": "UTC"
     },
-    "channels": {
-        "general": "General Chat",
-        "support": "Support Channel",
-        "announcements": "Announcements"
-    }
+    "welcomeChannel": "1148310578390110249",
+    "newsChannel": "1357428670997729461",
+    "generalChannel": "413655453159915525"
 }
