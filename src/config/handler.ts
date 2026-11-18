@@ -36,6 +36,7 @@ export function loadSettings(relativePath = "settings.json"): BotSettings {
     } catch (error) {
         throw new Error(
             `[Config] Error al leer el archivo ${relativePath}: ${(error as Error).message}`,
+            { cause: error },
         );
     }
 
