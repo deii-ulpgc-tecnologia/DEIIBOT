@@ -1,4 +1,4 @@
 allowBuilds:
-  esbuild: true
+    esbuild: true
 minimumReleaseAgeExclude:
-  - '@types/node@26.6.6'
+    - "@types/node@26.6.6"
